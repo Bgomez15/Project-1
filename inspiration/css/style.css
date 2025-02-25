@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Cageroll-Roll.woff') format('woff');
+}
+
+body {
+    background-color: black;
+    font-family: 'CustomFont';
+    color: white;
+    margin-bottom: 100px;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(90, 90, 90, 0.7);
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+}
+
+p {
+    text-align: center;
+    background-color: rgba(90, 90, 90, 0.7);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+}
+
+.cactus-jack img{
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.cactus-jack img + img {
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.pharrell img {
+  margin-left: 300px;
+  margin-bottom: 15px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 60%
+}
+
+.pharrell img + img {
+  margin-left: 200px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 60%
+}
+
+.veilside img {
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%
+}
+
+.veilside img + img {
+    margin-left: 200px;
+    margin-bottom: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%
+}
+
+@keyframes appear {
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
