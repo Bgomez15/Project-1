@@ -1,14 +1,7 @@
 
-@font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Cageroll-Roll.woff') format('woff');
-}
-
 body {
     background-color: rgb( 0, 0, 0);
     color: white;
-    font-family: 'CustomFont';
-    src: url('../fonts/Cageroll-Roll.woff') format('woff');
 }
 
 nav {
