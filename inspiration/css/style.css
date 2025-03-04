@@ -41,7 +41,6 @@ h2 {
 }
 
 p {
-    text-align: center;
     background-color: rgba(90, 90, 90, 0.7);
     margin-left: 300px;
     margin-right: 300px;
@@ -55,6 +54,7 @@ p {
     border-radius: 15px;
     margin-left: 100px;
     margin-bottom: 15px;
+    
 }
 
 .cactus-jack img + img {
