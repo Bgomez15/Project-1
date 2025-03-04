@@ -3,15 +3,11 @@
     src: url('/topFives/fonts/Cageroll-Roll.woff') format('woff');
 }
 
-html {
-    font-family: 'CustomFont';
-    src: url('/fonts/Cageroll-Roll.woff') format('woff');
-}
-
 body {
     background-color: rgb( 0, 0, 0);
-    font-family: 'CustomFont';
     color: white;
+    font-family: 'CustomFont';
+    src: url('../fonts/Cageroll-Roll.woff') format('woff');
 }
 
 nav {
